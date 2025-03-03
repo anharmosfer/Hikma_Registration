@@ -1,0 +1,43 @@
+ <section id="branch-college-section" class="branch-college-section">
+  <div class="logo-container">
+      <img src="image/fb-logo.jpg" alt="Logo">
+  </div>
+  <div class="form-container">
+      <div class="form-fields">
+          <div class="form-field">
+              <label for="branch">
+                  <h5> الفرع : </h5>
+              </label>
+              <select id="branch" name="branch" onchange="validateForm()">
+                  <option value="" disabled selected>اختر الفرع</option>
+                  <option value="sanaa">فرع صنعاء</option>
+                  <option value="houban">فرع الحوبان</option>
+                  <option value="dhamar">فرع ذمار</option>
+                  <option value="taiz">فرع تعز</option>
+              </select>
+          </div>
+          <div class="form-field">
+              <label for="college">
+                  <h5> الكلية :</h5>
+              </label>
+              <select id="college" name="college" onchange="validateForm()">
+                  <option value="" disabled selected>اختر الكلية</option>
+                  <option value="institute">معهد الجامعة</option>
+                  <option value="medical">كلية العلوم الطبية</option>
+                  <option value="engineering">كلية العلوم والهندسة</option>
+                  <option value="administration">كلية العلوم الإدارية والإنسانية</option>
+              </select>
+          </div>
+          <div class="form-field">
+              <label for="department">
+                  <h5>القسم :</h5>
+              </label>
+              <select id="department" name="department" onchange="validateForm()">
+                  <option value="" disabled selected>اختر القسم</option>
+              </select>
+          </div>
+      </div>
+      <!-- Initially disabled button -->
+      <label for="toggle2" class="next-button disabled" id="nextButton">Next</label>
+  </div>
+</section>
